@@ -7,11 +7,11 @@ As I am using MS Windows, in this short tutorial we will use Chocolatey to set u
 1. Use this link to go to the [Chocolatey install web page](https://chocolatey.org/install)
 
 - We will use the Individual version
-  ![Chocolatey Website](MSIT5214-01-Algorithms\img\Unit1\Lab1\ChocolateyInstallation.png)
+  ![Chocolatey Website](img/ChocolateyInstallation.png)
 
 2. In your windows desktop, Run PowerShell as Administrator
 
-![PowerShell Administrator](MSIT5214-01-Algorithms\img\Unit1\Lab1\powershell-admin.png)
+![PowerShell Administrator](img/powershell-admin.png)
 
 - Execute the following command:
 
