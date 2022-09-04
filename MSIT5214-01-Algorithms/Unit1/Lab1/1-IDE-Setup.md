@@ -26,7 +26,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco -?
 ```
 
-4. You will see the multiple options for running the Chocolatey Command Line Interfacer (CLI)
+- You will see the multiple options for running the Chocolatey Command Line Interfacer (CLI)
 
 ## Installation of Python using Chocolatey
 
