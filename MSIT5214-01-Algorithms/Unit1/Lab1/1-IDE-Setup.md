@@ -266,3 +266,18 @@ print("Hello UOP world!")
 ![PowerShell Administrator](img/vscodeSetup45.png)
 
 #### Congratulations!! You finished the Visual Studio IDE Setup Process.
+
+Insights:
+
+- Package managers ease the task of installing and updating the software required for the Lab
+
+- IntelliJ generates the Python Virtual environments automatically for each project. This brings the benefit of provisioning ad-hoc environments for each project without the need to mix libraries that could overlap between each project. You can also specify the python interpreter version you need to use
+
+- VSCode was easy to setup, and requires manual activation and configuration of virtual environments
+
+#### Challenge:
+
+How to do this wth VS Code?
+
+- Using the [venv module](https://docs.python.org/3/library/venv.html)
+- Using [conda or miniconda ](https://docs.conda.io/en/latest/) (another package manager for Python and Data Science)
