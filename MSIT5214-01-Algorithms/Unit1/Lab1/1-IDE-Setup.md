@@ -7,6 +7,7 @@ As I am using MS Windows, in this short tutorial we will use Chocolatey to set u
 1. Use this link to go to the [Chocolatey install web page](https://chocolatey.org/install)
 
 - We will use the Individual version
+
   ![Chocolatey Website](img/ChocolateyInstallation.png)
 
 2. In your windows desktop, Run PowerShell as Administrator
@@ -112,6 +113,53 @@ Chocolatey installed 1/1 packages.
 See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
 ```
 
+## Configuration and First Steps on the IntelliJ IDEA Community Edition
+
+1. Start IntelliJ Idea in your windows computer.
+
+   ![PowerShell Administrator](img/IntelliJSetupStep2.png)
+
+2. In the Welcome to IntelliJ IDEA page, select Plugins on the left
+   side menu
+
+- 2.1 Type the word 'python' without quotes in the search bar
+- 2.2 Select the Install button in the Python Community Edition plugin
+- 2.3 Return to the Projects section on the left side
+
+  ![PowerShell Administrator](img/IntelliJSetupStep2.1.png)
+
+3. Select New Project
+
+- 3.1 In the Name section, enter the name MSIT5214-Lab1
+- 3.2 In Language, select Python
+- 3.3 Select the Create button at the bottom of the screen
+
+  ![PowerShell Administrator](img/IntelliJSetupStep3.png)
+
+4. Add a new Python file to your Poject
+
+- 4.1 and 4.2 Right Click the folder with the project name and select New > Python File
+
+  ![PowerShell Administrator](img/IntelliJSetupStep41.png)
+
+- 4.3 Enter the file name with the extension '.py' (unquotted) and hit the Enter key.
+
+  ![PowerShell Administrator](img/IntelliJSetupStep43.png)
+
+5. Add code to your new Python file
+
+- 5.1 In the code editor, enter the sentence
+
+```python
+print("Hello UOP world!")
+```
+
+- 5.2 To run your code, simply select the play button, and see the output in the bottom of your IntelliJ IDE
+
+  ![PowerShell Administrator](img/IntelliJSetupStep5.png)
+
+#### Congratulations!! You finished the IntelliJ IDE Setup Process.
+
 ## Installation of Visual Studio Code
 
 . To install the Visual Studio Code IDE, type the following command:
@@ -172,3 +220,49 @@ vscode package files install completed. Performing other installation steps.
 Chocolatey installed 3/3 packages.
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
 ```
+
+## Configuration and First Steps on the Visual Studio Code IDE
+
+1. Start VS Code on your windows computer
+
+![PowerShell Administrator](img/vscodeSetup1.png)
+
+2. Install the Python Extension
+
+- 2.1 Select the Extensions Icon Menu on the left side bar
+- 2.2 In the search bar, type 'python' (without the quotes)
+- 2.3 Select the IntelliSense extension and install it
+
+![PowerShell Administrator](img/vscodeSetup2.png)
+
+3. Create the new Project Folder
+
+- 3.1 Select the menu File > Open Folder... and create a folder with the name MSIT5214-Lab1 and choose a folder in the location of your preference
+
+![PowerShell Administrator](img/vscodeSetup31.png)
+
+- 3.2 If you see an Authors' Trust windows, select the green button "Yes, I trust the authors"
+
+![PowerShell Administrator](img/vscodeSetup32.png)
+
+4. Add a new Python file to your Poject
+
+- 4.1 Select the New File icon
+- 4.2 Enter the name helloworld.py
+- 4.3 In the code editor, enter the sentence
+
+```python
+print("Hello UOP world!")
+```
+
+![PowerShell Administrator](img/vscodeSetup4.png)
+
+- 4.4 To run your code, simply select the play button > Run Python File
+
+![PowerShell Administrator](img/vscodeSetup44.png)
+
+- 4.5 See the output in the Terminal section at the bottom of your screen
+
+![PowerShell Administrator](img/vscodeSetup45.png)
+
+#### Congratulations!! You finished the Visual Studio IDE Setup Process.
